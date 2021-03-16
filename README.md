@@ -1,12 +1,7 @@
 # ChatApp
 
-Unit 8: Group Milestone - README Example
+Unit 8: Group Milestone
 ===
-
-:::info
-**Below is an example** of what your **Group Project README** should include and how it should be structured for the **Unit 8 Group Milestone Submission**.
-:::
-
 # TUNIN
 
 ## Table of Contents
@@ -16,73 +11,68 @@ Unit 8: Group Milestone - README Example
 
 ## Overview
 ### Description
-Tracks what music an individual listens to, and pairs them with others based on that music. Could be potentially used as a dating app, or just meeting new friends with similar music tastes.
+It allows people to create two types of chat rooms teams and group. Teams chat consists of up to four people to communicate in a neat and concise way while group chat will be the standard chat which consists of more than four people. Its purpose is to remove confusion and avoid the convoluted paragraphs of other chat apps. 
 
 ### App Evaluation
-- **Category:** Social Networking / Music
-- **Mobile:** This app would be primarily developed for mobile but would perhaps be just as viable on a computer, such as tinder or other similar apps. Functionality wouldn't be limited to mobile devices, however mobile version could potentially have more features.
-- **Story:** Analyzes users music choices, and connects them to other users with similar choices. The user can then decide to message this person and befriend them if wanted.
-- **Market:** Any individual could choose to use this app, and to keep it a safe environment, people would be organized into age groups.
-- **Habit:** This app could be used as often or unoften as the user wanted depending on how deep their social life is, and what exactly they're looking for.
-- **Scope:** First we would start with pairing people based on music taste, then perhaps this could evolve into a music sharing application as well to broaden its usage. Large potential for use with spotify, apple music, or other music streaming applications.
+- **Category:** Social Networking 
+
+- **Mobile:** This app is an extension of a computer version that was previously created by one of the members. 
+
+- **Story:** Made specifically for professionals who typically work in a team to help them communicate better.
+
+- **Market:** This app can be used by anyone. 
+
+- **Habit:** This app could be used as often or sporadically depending on how much users have to communicate with other users.
+
+- **Scope:** The creator of the Group chat or Team chat would decide who would be placed into the created sub-chat rooms.
 
 ## Product Spec
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
 
-* User logs in to access previous chats and preference settings
-* User picks what their favorite artist/genre/etc. (Think Spotify interface)
-* Matches have a chat window to get to know each other, with the ability to skip music and unmatch (Tinder Style).
-* Profile pages for each user
-* Settings (Accesibility, Notification, General, etc.)
+* Create chat room 
+-Team chat (Max 4 people)
+-Group chat (No Limit) // can have sub chat rooms (multiple team chats)
+* Join chat room 
+* Private message (quick message)
+* Optional login // does not save the conversations 
+* Login // saves the conversations 
 
 **Optional Nice-to-have Stories**
 
-* Log of past songs/people with album art covers matching
-* Page of most played songs (i.e. songs that most users are connecting through)
-* Profile Add-On: Top music choices, etc.
-* Optional Shuffle Button (i.e. random encounter/random song)
-* Listening/Encounter Queue
+* Add pictures / pdf
+* Add movies / videos
+* Add gifs / links
+* Add audio files
+* Message timestamp
+* Play back messages
+* Implement contacts
+* Secondary chat name // way of naming a chat that only the person who wrote it can see
+* Import conversations from other apps
+* Invite system
+* Contact request // friend request
+* Settings (Accesibility, Notification, General, etc.)
 
 ### 2. Screen Archetypes
 
-* Login 
-* Register - User signs up or logs into their account
-   * Upon Download/Reopening of the application, the user is prompted to log in to gain access to their profile information to be properly matched with another person. 
-   * ...
-* Messaging Screen - Chat for users to communicate (direct 1-on-1)
-   * Upon selecting music choice users matched and message screen opens
-* Profile Screen 
-   * Allows user to upload a photo and fill in information that is interesting to them and others
-* Song Selection Screen.
-   * Allows user to be able to choose their desired song, artist, genre of preference and begin listening and interacting with others.
-* Settings Screen
-   * Lets people change language, and app notification settings.
+* Create / Join A Chat Room Screen (No need for logging in)
+* Create / Join A Chat Room Screen (Logged in Version)
+* Group Chat (Messaging) Screen
+* Team Chat (Messaging) Screen
+* Private Chat (Messaging) Screen
 
 ### 3. Navigation
 
-**Tab Navigation** (Tab to Screen)
-
-* Music selection
-* Profile
-* Settings
-
-Optional:
-* Music/Encounter Queue
-* Discover (Top Choices)
-
 **Flow Navigation** (Screen to Screen)
-* Forced Log-in -> Account creation if no log in is available
-* Music Selection (Or Queue if Optional) -> Jumps to Chat
-* Profile -> Text field to be modified. 
-* Settings -> Toggle settings
+* Create A Chat -> Team/Group Chat Screen
+* Join A Chat -> Team/Group Chat Screen
 
 ## Wireframes
-<img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
 
-### [BONUS] Digital Wireframes & Mockups
-<img src="https://i.imgur.com/lYHn37F.jpg" height=200>
+![](https://i.imgur.com/xbHn78F.png)
 
-### [BONUS] Interactive Prototype
-<img src="https://i.imgur.com/AiKfE5g.gif" width=200>
+
+
+
+
