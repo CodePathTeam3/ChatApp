@@ -8,6 +8,7 @@ Unit 8: Group Milestone
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
+2. [Schema](#Schema)
 
 ## Overview
 ### Description
@@ -72,7 +73,31 @@ It allows people to create two types of chat rooms teams and group. Teams chat c
 
 ![](https://i.imgur.com/xbHn78F.png)
 
+## Schema
+### Models
+
+**Chat**
 
 
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| objectId     | String     | Id for users|
+|created |DataTime |Chat created|
+| updated | DataTime |Chat updated|
+|Image |File|Image posted |
+|messageCreated |DataTime|Message created|
+|messageEdited|DataTime|Message edited|
+|messageDeleted|DataTime|MessageDeleted|
+|Video|File |Video posted|
 
+### Networking
 
+**List of network requests by screen**
+* Home Feed Screen
+    * Create - creates a new chat room
+    * Join  - joins an existing chat room
+* Chat Screen
+    * Private chat - message individuals without creating a chat room
+    * Delete chat- deletes chat rooms no longer used (@ user discretion)
+    * Delete message - deletes messages
+    * Edit message - edit messages
