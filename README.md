@@ -37,8 +37,8 @@ It allows people to create two types of chat rooms teams and group. Teams chat c
 -Group chat (No Limit) // can have sub chat rooms (multiple team chats)
 * Join chat room 
 * Private message (quick message)
-- [x]Optional login // does not save the conversations 
-- [x]Login // saves the conversations 
+- [x] Optional login // does not save the conversations 
+- [x] Login // saves the conversations 
 
 **Optional Nice-to-have Stories**
 
