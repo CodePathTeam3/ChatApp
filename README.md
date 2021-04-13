@@ -101,3 +101,7 @@ It allows people to create two types of chat rooms teams and group. Teams chat c
     * Delete chat- deletes chat rooms no longer used (@ user discretion)
     * Delete message - deletes messages
     * Edit message - edit messages
+
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/77038388/113662150-5e688d80-965c-11eb-9e16-5cacb349bcd2.gif)
+
