@@ -32,9 +32,9 @@ It allows people to create two types of chat rooms teams and group. Teams chat c
 
 **Required Must-have Stories**
 
-* Create chat room 
--Team chat (Max 4 people)
--Group chat (No Limit) // can have sub chat rooms (multiple team chats)
+- [x] Create chat room 
+   -Team chat (Max 4 people)
+   -Group chat (No Limit) // can have sub chat rooms (multiple team chats)
 * Join chat room 
 * Private message (quick message)
 - [x] Optional login // does not save the conversations 
@@ -106,5 +106,6 @@ It allows people to create two types of chat rooms teams and group. Teams chat c
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/77038388/113662150-5e688d80-965c-11eb-9e16-5cacb349bcd2.gif)
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/77038388/114492269-1a7e0700-9bcd-11eb-824d-daed1aad4916.gif)
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/77038388/114492271-1ce06100-9bcd-11eb-81db-0bcbc3d9bf9f.gif)
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/77038388/115345312-79122a80-a163-11eb-9b5b-44e8f6ed5d5d.gif)
 
 
